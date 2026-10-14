@@ -1,0 +1,2 @@
+import { skillGroups } from '../data/skills'
+export function Skills() { return <section id="skills" className="section-shell section tinted"><div className="section-heading compact"><p className="eyebrow">02 / TOOLKIT</p><h2>Skills for the<br /><em>first response.</em></h2></div><div className="skill-grid">{skillGroups.map(group => <article className="skill-card" key={group.label}><p className="card-kicker">{group.kicker}</p><h3>{group.label}</h3><div className="pill-list">{group.items.map(item => <span key={item}>{item}</span>)}</div></article>)}</div></section> }

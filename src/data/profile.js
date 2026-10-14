@@ -1,0 +1,6 @@
+export const profile = {
+  name: 'Ritesh Sharma', initials: 'RS', title: 'Cybersecurity Analyst / SOC Analyst', location: 'Mumbai, Maharashtra, India', email: 'r.sharma1402004@gmail.com', phone: '+91-7269077920', resumeUrl: '/resume.pdf',
+  links: { linkedin: 'https://www.linkedin.com/in/ritesh-sharma-a50575292/', github: 'https://github.com/Ritesh-sharma-14', tryhackme: 'https://tryhackme.com/p/r.sharma1402004' },
+  summary: 'Computer Science & Engineering student building practical red team skills through authorised penetration testing, vulnerability assessment, and remediation.',
+  about: 'I am a Computer Science & Engineering student focused on offensive security and red team practices. Through authorised penetration-testing labs and projects, I practise identifying and validating vulnerabilities, assessing their potential impact, and recommending practical fixes. I apply networking fundamentals and Python to security testing and reporting, and document findings clearly to help make systems more secure. I am continually learning penetration-testing techniques and responsible security practices.',
+}

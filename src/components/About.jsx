@@ -1,0 +1,3 @@
+import { Crosshair, Eye, Terminal } from 'lucide-react'
+import { profile } from '../data/profile'
+export function About() { return <section id="about" className="section-shell section"><div className="section-heading"><p className="eyebrow">01 / PROFILE</p><h2>Security is a<br /><em>practice,</em> not a label.</h2></div><div className="about-content"><p className="lead">{profile.about}</p><div className="about-grid"><div><Crosshair size={18} /><b>Investigate</b><span>From network signals to useful findings.</span></div><div><Eye size={18} /><b>Observe</b><span>Build context before making a call.</span></div><div><Terminal size={18} /><b>Automate</b><span>Use Python to make repeatable work.</span></div></div></div></section> }
